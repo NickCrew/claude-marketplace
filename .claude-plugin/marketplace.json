@@ -1,0 +1,26 @@
+{
+  "name": "claude-private",
+  "owner": {
+    "name": "Internal DevTools",
+    "email": "devtools@example.com"
+  },
+  "metadata": {
+    "description": "Private marketplace exposing the claude-ctx plugin bundle."
+  },
+  "plugins": [
+    {
+      "name": "claude-ctx",
+      "description": "Context orchestration toolkit with curated commands, agents, modes, and CLI utilities.",
+      "version": "0.1.0",
+      "source": {
+        "source": "github",
+        "repo": "NickCrew/claude-ctx-plugin"
+      },
+      "tags": [
+        "internal",
+        "context",
+        "claude"
+      ]
+    }
+  ]
+}
