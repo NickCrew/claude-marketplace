@@ -5,16 +5,16 @@
     "email": "devtools@example.com"
   },
   "metadata": {
-    "description": "Private marketplace exposing the claude-ctx plugin bundle."
+    "description": "Private marketplace exposing the claude-cortex plugin bundle."
   },
   "plugins": [
     {
-      "name": "claude-ctx",
+      "name": "claude-cortex",
       "description": "Context orchestration toolkit with curated commands, agents, modes, and CLI utilities.",
       "version": "0.1.0",
       "source": {
         "source": "github",
-        "repo": "NickCrew/claude-ctx-plugin"
+        "repo": "NickCrew/claude-cortex"
       },
       "tags": [
         "internal",
