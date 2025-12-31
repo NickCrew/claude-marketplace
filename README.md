@@ -1,6 +1,6 @@
 # Claude Private Marketplace
 
-This repository hosts a Claude Code marketplace that exposes the private `claude-ctx` plugin. Point Claude Code at this git repository to make the plugin available organization-wide.
+This repository hosts a Claude Code marketplace that exposes the private `claude-cortex` plugin. Point Claude Code at this git repository to make the plugin available organization-wide.
 
 ## Repository layout
 
@@ -9,7 +9,7 @@ This repository hosts a Claude Code marketplace that exposes the private `claude
 
 ## Usage
 
-1. Ensure the `claude-ctx` plugin repository is available at `https://github.com/NickCrew/claude-ctx-plugin`.
+1. Ensure the `claude-cortex` plugin repository is available at `https://github.com/NickCrew/claude-cortex`.
 2. Grant your team access to this public repository (or adjust the URLs if you fork it).
 3. In Claude Code, add the marketplace:
 
@@ -20,7 +20,7 @@ This repository hosts a Claude Code marketplace that exposes the private `claude
 4. Install the plugin:
 
    ```
-   /plugin install claude-ctx@claude-private
+   /plugin install claude-cortex@claude-private
    ```
 
 ## Local development
@@ -31,7 +31,7 @@ To test locally without pushing to GitHub, clone both repositories and update th
 {
   "source": {
     "source": "url",
-    "url": "file:///Users/you/path/to/claude-ctx-plugin"
+    "url": "file:///Users/you/path/to/claude-cortex"
   }
 }
 ```
